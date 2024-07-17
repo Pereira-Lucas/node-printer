@@ -41,6 +41,8 @@ namespace{
                 _value = NULL;
             }
         }
+    private:
+        void *_value;
     };
 
     struct PrinterHandle
