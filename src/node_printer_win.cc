@@ -42,7 +42,7 @@ namespace{
             }
         }
     private:
-        void *_value;
+        Type *_value;
     };
 
     struct PrinterHandle
